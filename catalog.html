@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -120,8 +121,8 @@
             </label>
           </fieldset>
           <span class="visually-hidden">Ползунок</span>
-          <button class="button" type="submit">Применить</button>
-          <button class="button" type="reset">Сбросить</button>
+          <button class="button-select" type="submit">Применить</button>
+          <button class="button-remove" type="reset">Сбросить</button>
         </form>
       </section>
       <section class="catalog" data-test="catalog">
@@ -160,7 +161,7 @@
             <p class="catalog-item-card">Гостиница</p>
             <p class="catalog-item-price">От 4000 ₽</p>
             <a class="catalog-item-link-button" href="#">подробнее</a>
-            <button class="button" type="submit">В избранном</button>
+            <button class="button-like" type="submit">В избранном</button>
             <span class="visually-hidden">Отель 4 звезды</span>
             </p>
             <p class="catalog-item-rating">Рейтинг: 8,5</p>
@@ -169,12 +170,12 @@
             <a class="catalog-item-link" href="#">
               <img class="catalog-item-image" src="images/hotels/hotel-2.jpg" width="300" height="212"
                 alt="Радуга над горой">
-              <h3 class="catakog-item-title">Villas at Poco Diablo</h3>
+              <h3 class="catalog-item-title">Villas at Poco Diablo</h3>
             </a>
             <p class="catalog-item-card">Гостиница</p>
             <p class="catalog-item-price">От 5000 ₽</p>
             <a class="catalog-item-link-button" href="#">подробнее</a>
-            <button class="button" type="submit">В избранном</button>
+            <button class="button-like" type="submit">В избранном</button>
             <span class="visually-hidden">Отель 4 звезды</span>
             </p>
             <p class="catalog-item-rating">Рейтинг: 9,2</p>
@@ -183,12 +184,12 @@
             <a class="catalog-item-link" href="#">
               <img class="catalog-item-image" src="images/hotels/hotel-3.jpg" width="300" height="212"
                 alt="Закат в горах">
-              <h3 class="catakog-item-title">Desert Quail Inn</h3>
+              <h3 class="catalog-item-title">Desert Quail Inn</h3>
             </a>
             <p class="catalog-item-card">Гостиница</p>
             <p class="catalog-item-price">От 2500 ₽</p>
             <a class="catalog-item-link-button" href="#">подробнее</a>
-            <button class="button" type="submit">В избранном</button>
+            <button class="button-like" type="submit">В избранном</button>
             <span class="visually-hidden">Отель 3 звезды</span>
             </p>
             <p class="catalog-item-rating">Рейтинг: 6,9</p>
@@ -197,12 +198,12 @@
             <a class="catalog-item-link" href="#">
               <img class="catalog-item-image" src="images/hotels/hotel-4.jpg" width="300" height="212"
                 alt="Ночь в горах">
-              <h3 class="catakog-item-title">GreenTree Inn</h3>
+              <h3 class="catalog-item-title">GreenTree Inn</h3>
             </a>
             <p class="catalog-item-card">Гостиница</p>
             <p class="catalog-item-price">От 1500 ₽</p>
             <a class="catalog-item-link-button" href="#">подробнее</a>
-            <button class="button" type="submit">В избранном</button>
+            <button class="button-like" type="submit">В избранном</button>
             <span class="visually-hidden">Отель 2 звезды</span>
             </p>
             <p class="catalog-item-rating">Рейтинг: 5,0</p>
@@ -229,12 +230,12 @@
         <a class="pagination-link" href="#">10</a>
       </li>
 
-      <section class="subscription" data-test="subscribe">
-        <h2>Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <section class="subscription-catalog" data-test="subscribe">
+        <h2 class="subscription-title-catalog">Подпишитесь на рассылку</h2>
+        <p class="subscription-text-catalog">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <input type="text" name="user-email" placeholder="Ваш e-mail">
-          <button class="button" type="submit">Подписаться</button>
+          <button class="button-subscribe" type="submit">Подписаться</button>
         </form>
       </section>
     </main>

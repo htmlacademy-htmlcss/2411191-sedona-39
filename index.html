@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -54,12 +55,12 @@
 
       <section class="advantages" data-test="advantages">
         <h2 class="visually-hidden">Приемущества</h2>
-        <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <p class="title-advantages">Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</p>
+        <p class="look-advantages">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="advantages-list">
           <li class="advantages-item ">
-            <h3 class="advantages-title">Настоящий городок</h3>
-            <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <h3 class="advantages-title-first">Настоящий городок</h3>
+            <p class="advantages-description-first">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="town" src="images/photo-1.jpg" width="800" height="385" alt="Город на фоне гор">
           </li>
 
@@ -76,8 +77,8 @@
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-item ">
-            <h3 class="advantages-title">Там есть мост дьявола</h3>
-            <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <h3 class="advantages-title-first">Там есть мост дьявола</h3>
+            <p class="advantages-description-first">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             <img class="bridge" src="images/photo-2.jpg"  width="800" height="385" alt="Мост дьявола">
           </li>
 
@@ -86,8 +87,8 @@
 
       <section class="infrastructure">
         <h2 class="visually-hidden">Инфраструктура</h2>
-        <p>Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
-        <p>Опытный персонал и качественное обслуживание!</p>
+        <p class="subtitle-infrastructure">Приезжайте в Седону отдохнуть <br>в комфорте и уюте!</p>
+        <p class="text-infrastructure">Опытный персонал и качественное обслуживание!</p>
         <ul class="infrasucture-list">
           <li class="infrasucture-item ">
             <h3 class="infrastructure-title">Жильё</h3>
@@ -106,18 +107,18 @@
         </ul>
       </section>
 
-      <section class="interes" data-test="search">
-        <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <section class="search" data-test="search">
+        <h2 class="title-search">Заинтересовались?</h2>
+        <p class="text-search">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="button-search" href="#">Поиск гостиницы в Седоне</a>
       </section>
 
       <section class="subscription" data-test="subscribe">
-        <h2>Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+        <p class="subscription-text">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <input type="text" name="user-email" placeholder="Ваш e-mail">
-          <button class="button" type="submit">Подписаться</button>
+          <button class="button-subscribe" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
