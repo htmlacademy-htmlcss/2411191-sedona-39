@@ -1,0 +1,475 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #242424;
+  background: #F2F2F2;
+
+}
+
+.main-header {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.navigation-link,
+.navigation-user-link {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+
+}
+
+.likes-count {
+  color: #FFFFFF;
+  background-color: #7DB54F;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
+
+}
+
+.header-button {
+  color: #FFFFFF;
+  background: rgba(117, 97, 87, 1);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-index {
+  width: 1200px;
+  color: #000000;
+  background-image: url(../images/main-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.title-advantages {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 69px;
+
+
+}
+
+.look-advantages {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0;
+  margin-top: 25px;
+  color: #333333;
+
+}
+
+.advantages-item:first-child,
+.advantages-item:nth-child(5) {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.advantages-item {
+  background-color: #83B3D31F;
+
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+
+.infrastructure-item:first-child,
+.infrastructure-item:nth-child(3) {
+  background-color: #83B3D31F;
+
+}
+
+.subtitle-infrastructure {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 64px;
+}
+
+.text-infrastructure {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  color: #333333;
+}
+
+.infrastructure-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.infrastructure-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  color: #333333;
+}
+
+
+.title-search {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 96px;
+}
+
+.text-search {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  color: #333333;
+}
+
+.button-search {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #756157;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 54px;
+  display: block;
+  width: 376px;
+
+}
+
+.subscription {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  background-image: url(../images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.subscription-title {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 96px;
+}
+
+.subscription-text {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+  margin-top: 20px;
+
+}
+
+.button-subscribe {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  border: none;
+}
+
+.e-mail {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  display: block;
+}
+
+.footer-contact-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.filter {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  background-image: url(../images/background-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+
+}
+
+.filter-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.bread-crumbs-link {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  margin: 0;
+  margin-top: 8px;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.filter-label,
+.filter-radio {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filter-form-controle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.button-select {
+  color: #FFFFFF;
+  background-color: rgba(130, 179, 211, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button-remove {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.find-hotel {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin: 0;
+  margin-top: 56px;
+
+}
+
+.catalog-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.catalog-item-card {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.catalog-item-price {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: right;
+  color: #333333;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.catalog-item-link-button {
+  color: #FFFFFF;
+  background-color: #756157;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.button-like  {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.button-like-active {
+  background-color: #7DB54F;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.catalog-item-rating {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-top: 16px;
+
+}
+
+
+.pagination-current .pagination-link{
+background-color: #F2F2F2;
+
+}
+
+
+.subscription-title-catalog {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subscription-text-catalog {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+
+}
