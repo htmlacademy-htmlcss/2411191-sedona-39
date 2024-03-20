@@ -68,21 +68,24 @@
               <legend class="catalog-filter-list">Инфраструктура:</legend>
               <ul class="filter-list">
                 <li class="filter-item">
-                  <label class="filter-label">
-                    <input class="filter-checkbox" type="checkbox" name="swimming-pool" checked>
-                    Бассейн
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="swimming-pool" checked>
+                   <span class="control-mark"></span>
+                   <span class="control-label">Бассейн </span>
                   </label>
                 </li>
                 <li class="filter-item">
-                  <label class="filter-label">
-                    <input class="filter-checkbox" type="checkbox" name="parking" checked>
-                    Парковка
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="parking" checked>
+                    <span class="control-mark control-mark-current"></span>
+                    <span class="control-label"> Парковка</span>
                   </label>
                 </li>
                 <li class="filter-item">
-                  <label class="filter-label">
-                    <input class="filter-checkbox" type="checkbox" name="Wi-fi">
-                    Wi-fi
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="Wi-fi">
+                    <span class="control-mark"></span>
+                       <span class="control-label"> Wi-fi</span>
                   </label>
                 </li>
               </ul>
@@ -91,39 +94,55 @@
               <legend class="catalog-filter-list">Тип жилья:</legend>
               <ul class="filter-list">
                 <li class="filter-item">
-                  <label class="filter-label">
-                    <input class="filter-radio" type="radio" name="type-house" value="hotel" checked>
-                    Гостиница
+                  <label class="control">
+                    <input class="visually-hidden filter-radio" type="radio" name="type-house" value="hotel" checked>
+                    <span class="control-mark-radio "></span>
+                    <span class="control-label">Гостиница</span>
                   </label>
                 </li>
                 <li class="filter-item">
-                  <label class="filter-label">
-                    <input class="filter-radio" type="radio" name="type-house" value="motel">
-                    Мотель
+                  <label class="control">
+                    <input class="visually-hidden filter-radio" type="radio" name="type-house" value="motel">
+                    <span class="control-mark-radio"></span>
+                    <span class="control-label">Мотель</span>
                   </label>
                 </li>
                 <li class="filter-item">
-                  <label class="filter-label">
-                    <input class="filter-radio" type="radio" name="type-house" value="apartaments">
-                    Апартаменты
+                  <label class="control">
+                    <input class="visually-hidden filter-radio" type="radio" name="type-house" value="apartaments">
+                    <span class="control-mark-radio"></span>
+                    <span class="control-label">Апартаменты</span>
                   </label>
                 </li>
               </ul>
             </fieldset>
+
             <fieldset class="filter-form-fielsed filter-form-fielsed-list-price">
               <legend class="catalog-filter-list catalog-filter-list-price">Стоимость, ₽:</legend>
-              <label class="filter-form-controle">
-                <input class="price" type="text" name="min-interval" value="0">
-                <span class="price-text">От</span>
-              </label>
-              <label class="filter-form-controle">
-                <input class="price" type="text" name="max-interval" value="9000">
-                <span class="price-text">До</span>
-              </label>
-              <span class="visually-hidden">Ползунок</span>
+              <div class="range">
+                <div class="range-wrappers-inputs">
+                  <label class="filter-form-controle">
+                    <input class="price price-min" type="text" name="min-interval" value="0">
+                    <span class="price-text">От</span>
+                  </label>
+                  <label class="filter-form-controle">
+                    <input class="price price-max" type="text" name="max-interval" value="9000">
+                    <span class="price-text">До</span>
+                  </label>
+                </div>
+
+
+                <div class="range-scale">
+                  <div class="range-bar" style="right: 61px; width: 227px">
+                    <button type="button" class="range-toggle toggle-min"></button>
+                    <button type="button" class="range-toggle toggle-max"></button>
+                  </div>
+                </div>
+              </div>
+
             </fieldset>
             <div class="bloc-button">
-              <button class="select-button-type" type="submit">Применить</button>
+              <button class="button select-button-type" type="submit">Применить</button>
               <button class="remove-button-type" type="reset">Сбросить</button>
             </div>
           </form>
@@ -164,8 +183,8 @@
               </a>
               <p class="catalog-item-type">Гостиница</p>
               <p class="catalog-item-price">От 4000 ₽</p>
-              <a class="catalog-item-link-button" href="#">подробнее</a>
-              <button class="catalog-item-favorites" type="submit">В избранное</button>
+              <a class="button catalog-item-link-button" href="#">подробнее</a>
+              <button class="button catalog-item-favorites" type="submit">В избранное</button>
               <div class="catalog-item-star-rating catalog-item-star-rating-4">
                 <span class="visually-hidden">Отель 4 звезды</span>
               </div>
@@ -179,8 +198,9 @@
               </a>
               <p class="catalog-item-type">Гостиница</p>
               <p class="catalog-item-price">От 5000 ₽</p>
-              <a class="catalog-item-link-button" href="#">подробнее</a>
-              <button class="catalog-item-favorites catalog-item-favorites-active" type="submit">В избранном</button>
+              <a class="button catalog-item-link-button" href="#">подробнее</a>
+              <button class="button catalog-item-favorites catalog-item-favorites-active" type="submit">В
+                избранном</button>
               <div class="catalog-item-star-rating catalog-item-star-rating-4">
                 <span class="visually-hidden">Отель 4 звезды</span>
               </div>
@@ -195,8 +215,8 @@
               </a>
               <p class="catalog-item-type">Гостиница</p>
               <p class="catalog-item-price">От 2500 ₽</p>
-              <a class="catalog-item-link-button" href="#">подробнее</a>
-              <button class="catalog-item-favorites" type="submit">В избранное</button>
+              <a class="button catalog-item-link-button" href="#">подробнее</a>
+              <button class="button catalog-item-favorites" type="submit">В избранное</button>
               <div class="catalog-item-star-rating catalog-item-star-rating-3">
                 <span class="visually-hidden">Отель 3 звезды</span>
               </div>
@@ -211,8 +231,8 @@
               </a>
               <p class="catalog-item-type">Гостиница</p>
               <p class="catalog-item-price">От 1500 ₽</p>
-              <a class="catalog-item-link-button" href="#">подробнее</a>
-              <button class="catalog-item-favorites" type="submit">В избранное</button>
+              <a class="button catalog-item-link-button" href="#">подробнее</a>
+              <button class="button catalog-item-favorites" type="submit">В избранное</button>
               <div class="catalog-item-star-rating catalog-item-star-rating-2">
                 <span class="visually-hidden">Отель 2 звезды</span>
               </div>
@@ -247,7 +267,7 @@
           <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
             <input class="e-mail" type="text" name="user-email" placeholder="Ваш e-mail">
-            <button class="button-subscription" type="submit">Подписаться</button>
+            <button class="button button-subscription" type="submit">Подписаться</button>
           </form>
         </section>
       </main>

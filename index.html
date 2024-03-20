@@ -45,7 +45,7 @@
               </a>
             </li>
           </ul>
-          <a class="header-button" href="#">Хочу сюда!</a>
+          <a class="button header-button" href="#">Хочу сюда!</a>
         </nav>
       </header>
 
@@ -135,7 +135,7 @@
           <p class="search-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в
             Седоне
           </p>
-          <a class="search-button" href="#">Поиск гостиницы в Седоне</a>
+          <a class="button search-button" href="#">Поиск гостиницы в Седоне</a>
         </section>
 
 
@@ -144,7 +144,7 @@
           <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
             <input class="e-mail" type="text" name="user-email" placeholder="Ваш e-mail">
-            <button class="button-subscription" type="submit">Подписаться</button>
+            <button class="button button-subscription" type="submit">Подписаться</button>
           </form>
         </section>
       </main>
@@ -189,8 +189,8 @@
           <a class="footer-contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
 
           <a class="copyright-logo" href="https://htmlacademy.ru/">
-            <svg class="copyright-logotype" role="img" aria-label="Логотип разработчика HTML Academy" width="115" height="34" viewBox="0 0 115 34"
-              xmlns="http://www.w3.org/2000/svg">
+            <svg class="copyright-logotype" role="img" aria-label="Логотип разработчика HTML Academy" width="115"
+              height="34" viewBox="0 0 115 34" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 13.7232V16.3232H2.5V13.7232H0Z" fill="black" />
               <path
                 d="M11.6 5.32324C10 5.32324 8.8 6.02324 8 7.02324H7.9V0.823242H5.9V16.3232H7.9V11.0232C7.9 8.92324 9.2 7.42324 11.2 7.42324C13 7.42324 14.1 8.82324 14.1 10.6232V16.3232H16.1V10.2232C16.2 7.22324 14.3 5.32324 11.6 5.32324Z"
@@ -229,6 +229,48 @@
 
           </a>
         </div>
+    </div>
+
+    <div class="modal-container modal-container-clouse">
+      <div class="modal modal-search">
+        <button class="modal-clouse-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="model-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+            <ul class="field-group">
+              <li class="field-item">
+                <label class="check" for="visit-data">Дата Заезда</label>
+                <input class="field" type="text" id="visit-data" name="visit-data" placeholder="27 Апреля 2020">
+              </li>
+              <li class="field-item">
+                <label class="check" for="departure-data">Дата Выезда</label>
+                <input class="field" type="text" id="departure-data" name="departure-data"
+                  placeholder="1 Сентября 2023">
+              </li>
+              <div class="field-list">
+                <li class="field-item ">
+                  <label class="check" for="number-of-adults">Взрослые</label>
+                  <button class="button-plus"></button>
+                  <input class="field" type="text" id="number-of-adults" name="number-of-adults" placeholder="2">
+                  <button class="button-minus"></button>
+                </li>
+                <li class="field-item ">
+                  <label class="check" for="number-of-child">Дети</label>
+                  <button class="button-plus"></button>
+                  <input class="field-" type="text" id="number-of-child" name="number-of-child" placeholder="2">
+                  <button class="button-minus"></button>
+                </li>
+              </div>
+              <button class="button-find">Найти</button>
+            </ul>
+          </form>
+
+          </form>
+        </section>
+
+      </div>
     </div>
     </footer>
   </body>
