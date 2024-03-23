@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
-* Студент: [Екатерина Долгова](https://up.htmlacademy.ru/htmlcss/39/user/2411191).
-* Наставник: `Неизвестно`.
-
+* Студент: [Екатерина Долгова](https://up.htmlacademy.ru/htmlcss/39/user/2411191/).
+* Наставник: [Дмитрий Осадченко](https://htmlacademy.ru/profile/dimaos).
+* Сайт: [Мой проект Седона](https://dolgova-ekaterina.github.io/2411191-sedona-39/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
