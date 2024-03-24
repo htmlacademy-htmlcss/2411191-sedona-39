@@ -308,7 +308,7 @@ body {
   background: rgba(0, 0, 0, 0.3);
   content: "";
   left: 58px;
-  top: 86px;
+  bottom:-31px;
 }
 
 .advantages-item-title-light::before {
@@ -602,6 +602,7 @@ body {
   list-style-type: none;
   align-items: center;
   margin-right: 41px;
+  max-width: 183px;
 }
 
 .social:active {
@@ -621,14 +622,14 @@ body {
 }
 
 .footer-contact-phone {
-  width: 331px;
+  width: 720px;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   color: #000000;
   text-decoration: none;
-  margin: 5px 195px;
+  margin: 5px auto;
 }
 
 .footer-contact-phone:active {
@@ -1381,6 +1382,7 @@ body {
   padding: 0;
   gap: 8px;
   list-style: none;
+  max-width: 160px;
 }
 
 .catalog-view-item {
@@ -1452,18 +1454,14 @@ body {
   padding: 20px 20px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
-  grid-template-rows: 1fr;
- }
+  grid-template-rows: auto 1fr;
+  }
 
 .catalog-item-link {
   grid-column: 1/-1;
   text-decoration: none;
-}
-
-.catalog-item-card {
-  text-align: left;
-  margin: 0;
-}
+  display: grid;
+ }
 
 .catalog-item-type {
   margin: 0;
