@@ -47,6 +47,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .button:hover {
   color: #ffffff;
 }
@@ -505,7 +506,7 @@ body {
   align-items: center;
   margin: 0;
   width: 1200px;
-  background-color:  #190d44;
+  background-color: #190d44;
   color: #FFFFFF;
   background-image: url(../images/background-sub.jpg);
   background-repeat: no-repeat;
@@ -577,7 +578,7 @@ body {
 }
 
 .e-mail::placeholder {
-  font-family: "PT Sans";
+  font-family: "PT Sans" sans-serif;
   height: 24px;
   opacity: 0.6px;
 }
@@ -839,7 +840,7 @@ body {
 }
 
 .field {
-  font-family: "PT Sans";
+  font-family: "PT Sans" sans-serif;
   width: 440px;
   border: none;
   background: #f2f2f2;
@@ -873,6 +874,7 @@ body {
 .field-item-numeric {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .item-numeric-wrapper {
@@ -886,7 +888,7 @@ body {
   background: #f2f2f2;
   padding: 0;
   text-align: center;
-  font-family: PT Sans;
+  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -977,10 +979,10 @@ body {
   padding: 0;
   border: none;
   background-color: transparent;
-  right: -38px;
   cursor: pointer;
   display: block;
-  top: -2px;
+  top: 10px;
+  left: 58px;
 }
 
 
@@ -1431,7 +1433,7 @@ body {
 .select-control {
   color: #333333;
   font-weight: 400;
-  font-family: "PT Sans";
+  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   line-height: 21px;
   width: 292px;
