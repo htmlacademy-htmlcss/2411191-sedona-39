@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="icon" type="image/icon.ico" sizes="32x32" href="/favicon.ico">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
 
   <body>
@@ -43,7 +44,7 @@
               </a>
             </li>
           </ul>
-          <a class="button header-button" href="#">Хочу сюда!</a>
+          <a class="button header-button" href="#" >Хочу сюда!</a>
         </nav>
       </header>
 
@@ -131,9 +132,11 @@
 
         <section class="subscription" data-test="subscription">
           <h2 class="subscription-title">Подпишитесь на рассылку</h2>
-          <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!
+          </p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="e-mail" type="text" name="user-email" placeholder="Ваш e-mail">
+            <label class="visually-hidden" for="subscribe-email">Укажите Ваш e-mail</label>
+            <input class="e-mail" type="text" name="user-email" id="subscribe-email" placeholder="Ваш e-mail">
             <button class="button button-subscription" type="submit">Подписаться</button>
           </form>
         </section>
@@ -233,7 +236,7 @@
                       <div class="field-item-wrapper">
                         <label class="check" for="visit-data">Дата Заезда:</label>
                         <input class="field" type="text" id="visit-data" name="visit-data" placeholder="Укажите дату"
-                          value="27 Апреля 2020" required>
+                          value="27 апреля 2020" required>
                       </div>
                       <p class="info-text error">Мы не можем отправить вас в прошлое.</p>
                     </div>
@@ -241,7 +244,7 @@
                       <div class="field-item-wrapper">
                         <label class="check check-out-style" for="departure-data">Дата Выезда:</label>
                         <input class="field" type="text" id="departure-data" name="departure-data"
-                          placeholder="Укажите дату" value="1 Сентября 2023" required>
+                          placeholder="Укажите дату" value="1 сентября 2023" required>
                       </div>
                       <p class="info-text">На эти даты есть свободные номера. Пока есть.</p>
                     </div>
@@ -251,14 +254,18 @@
                     <div class="field-item-numeric">
                       <label class="check check-numeric-style" for="number-of-adults">Взрослые:</label>
                       <div class="item-numeric-left-wrapper-style item-numeric-wrapper">
-                        <button class="button-icon button-minus" type="reset"></button>
+                        <button class="button-icon button-minus" type="button">
+                        <span class="visually-hidden">Уменьшить количество взрослых</span>
+                        </button>
                         <input class="field-button" type="text" id="number-of-adults" name="number-of-adults"
-                          placeholder="2">
-                        <button class="button-icon button-plus" type="reset"></button>
+                          value="2">
+                        <button class="button-icon button-plus" type="button">
+                          <span class="visually-hidden">Увеличить количество взрослых</span>
+                        </button>
                       </div>
                     </div>
                     <div class="field-item-numeric">
-                      <span class="check item-numeric-right-wrapper-style">Дети:
+                      <label class="check item-numeric-right-wrapper-style" for="number-of-child">Дети:
                         <button class="tooltip-toggle" type="button">
                           <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -272,11 +279,15 @@
                           которых от 6 до
                           18 лет. Дети до 6 лет размещаются бесплатно.
                         </span>
-                      </span>
-                      <button class="button-icon button-minus" type="reset"></button>
+                      </label>
+                      <button class="button-icon button-minus" type="button">
+                        <span class="visually-hidden">Уменьшить количество детей</span>
+                      </button>
                       <input class="field-button" type="text" id="number-of-child" name="number-of-child"
-                        placeholder="2">
-                      <button class="button-icon button-plus" type="reset"></button>
+                        value="2">
+                      <button class="button-icon button-plus" type="button">
+                        <span class="visually-hidden">Увеличить количество детей</span>
+                      </button>
                     </div>
                   </li>
                 </ul>
