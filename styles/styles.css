@@ -683,6 +683,8 @@ body {
   padding: 64px 70px;
   background: #FFFFFF;
   border-radius: 30px;
+  box-shadow: 0 25px 50px 0 #00000026;
+
 }
 
 
